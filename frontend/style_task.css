@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #DBE9EE;
+    background: linear-gradient(135deg, #8cd3ce, #f7bb97); 
     margin: 0;
     padding: 0;
 }
@@ -9,24 +9,24 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #4A6FA5;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: #333333;
 }
 
 .btn {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-top: 20px;
-    background-color: #007bff;
-    color: #fff;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); 
+    color: #ffffff; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -34,7 +34,7 @@ h1 {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background: linear-gradient(45deg, #f2a47f, #ff8888); 
 }
 
 table {
@@ -53,10 +53,10 @@ input[type="text"],
 textarea,
 select {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #ffffff; 
+    border-radius: 5px;
     box-sizing: border-box;
     resize: vertical;
 }
@@ -64,10 +64,40 @@ select {
 #submitBtn {
     width: auto;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 24px;
 }
 
 #submitBtn:hover {
-    background-color: #0056b3;
+    background: linear-gradient(45deg, #f2a47f, #ff8888); 
 }
 
+
+#addtask{
+    display: block;
+    width: 100%;
+    padding: 15px; 
+    margin-top: 20px;
+    background-color: #ff7e5f; 
+    color: black; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#title {
+    margin-bottom: 30px;
+}
+
+#description {
+    margin-bottom: 30px;
+}
+
+#status {
+    margin-bottom: 30px;
+}
+
+#priority {
+    margin-bottom: 30px;
+}
